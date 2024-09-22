@@ -165,8 +165,8 @@ function animateCircles() {
   cursor.style.left = y;
   
   circles.forEach(function (circle, index) {
-    circle.style.left = x - 12 + "px";
-    circle.style.top = y - 12 + "px";
+    circle.style.left = x + "px";
+    circle.style.top = y + "px";
 
     circle.style.scale = (circles.length - index) / circles.length;
 
